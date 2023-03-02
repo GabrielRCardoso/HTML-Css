@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: Droid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #EBE5C5;
+    text-align: justify;
+}
+
+strong {
+    color: #0f3320;
+}
+
+header {
+    background: linear-gradient(to bottom, #2ea665, #0f3320);
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+}
+
+header>h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    margin: 10px;
+    padding: 40px 0px 0px 0px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+
+header>p {
+    padding: 5px 0px 50px 0px;
+    margin: 1px;
+    text-align: center;
+    color: white;
+}
+
+nav>a {
+    text-decoration: none;
+    padding: 5px;
+    color: #A5E9C3;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+nav>a:hover {
+    background-color: #37c579;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline;
+    color: #0f3320;
+}
+
+main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-position: center;
+    background-color: white;
+    padding: 20px;
+    width: 800px;
+}
+
+h2 {
+    font-family: Droid;
+    font-size: 28px;
+    font-weight: normal;
+    color: #063D1E;
+}
+
+h3 {
+    background: linear-gradient(to right, #86E2AF, white 120%);
+    padding: 0px 5px 0px 5px;
+    font-family: Droid;
+    font-size: 20px;
+    font-weight: normal;
+    color: #3C7051;
+}
+
+p {
+    text-indent: 20px;
+}
+
+p>a {
+    background-color: #86E2AF;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    color: #063D1E;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.video {
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    background-color: #063D1E;
+}
+
+.aprender {
+    background-color: #86E2AF;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.aprender>p {
+    margin: 10px;
+    padding: 1px 10px 10px 1px;
+}
+
+h4 {
+    font-weight: bold;
+    background-color: #063D1E;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: "✔️ ";
+}
+
+.lista {
+
+    margin: 0px;
+    column-count: 2;
+    column-gap: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 10px -10px;
+    padding: 1px 0px 10px 0px;
+    color: white;
+    background-color: black;
+}

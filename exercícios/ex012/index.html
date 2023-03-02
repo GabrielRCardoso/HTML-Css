@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>
+        Este video está hospedado no meu próprio servidor.
+    </p>
+    
+    <video width="500" poster="imagens/thumb.jpg" controls> <!--poster é a thumbnail do video-->
+        <source src="media/meu-video.m4v" type="video/m4v">
+        <source src="media/meu-video.mp4" type="vide/mp4">
+        <source src="media/meu-video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+    </video> <!--O problema de fazer um site desse jeito, é que o consumo de banda fica muito caro para a hospedegem do site. Sempre explicar para o cliente o preço de fazer dessa maneira. Dar preferencia para videos hospedados externamente!!-->
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qP5FSUsxAv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <!--No video, ir no compartilhar e escolher a opção Embed Video, clicar em copy e colar tudo aqui-->
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+    
+    <iframe src="https://player.vimeo.com/video/278845039?h=db3f60482a&color=ffffff&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/278845039">REEL</a> from <a href="https://vimeo.com/alessandronovelli">Alessandro Novelli - NEWGOLD</a> on <a href="https://vimeo.com">Vimeo</a>.</p> <!--Para inserir do Vimeo, o processo é o mesmo do youtube.-->
+
+
+</body>
+</html>
