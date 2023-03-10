@@ -36,6 +36,12 @@ header>h1 {
     font-size: 10vw;
 }
 
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
 header>p {
     padding-bottom: 50px;
     font-size: 3vw;
