@@ -30,6 +30,7 @@ i#burger {
 }
 
 i#burger:hover {
+    cursor: pointer;
     background-color: white;
     color: black;
 }
@@ -53,6 +54,7 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
+    
     background-color: gray;
 }
 
